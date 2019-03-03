@@ -3,7 +3,7 @@ const readline = require('readline');
 const path = require('path');
 
 const rd = readline.createInterface({
-    input: fs.createReadStream(path.join(__dirname, 'git-bisect-test/mockup.json')),
+    input: fs.createReadStream(path.join(__dirname, 'git-bisect/mockup.json')),
     crlfDelay: Infinity
 });
 
