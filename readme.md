@@ -57,7 +57,7 @@ how to check bug with git
 #### example
 ```bash
     $git bisect start v1.0 dev
-    $git bisect run node ../bisect_check_mockup.json
+    $git bisect run node ../bisect_check_mockup.js
 ``` 
 
 내재된 스크립트는 mockup file이 empty인지 체크하는 스크립트입니다.
