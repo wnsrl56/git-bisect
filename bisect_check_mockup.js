@@ -17,4 +17,5 @@ rd.on('line', (line) => {
 
 rd.on('close', () => {
     const exit = mockup.length > 0 ? 0 : 1;
+    process.exit(exit);
 });
